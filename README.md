@@ -15,7 +15,7 @@ The server supports battles, for those a patched client is neccessary.
 
 #### Requirements:
   - [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
-  - [UwAmp (includes phpMyAdmin & MySQL):](https://www.uwamp.com/en/?page=download)
+  - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
 for Ubuntu use these commands to set it up:
 
