@@ -141,7 +141,7 @@ namespace ClashRoyale.Logic
                 packet.WriteVInt(0);
 
                 packet.WriteScString("2v2 Button");
-                packet.WriteScString("{\"HideTimer\":false,\"HidePopupTimer\":false}\"");
+                packet.WriteScString("{\"HideTimer\":true,\"HidePopupTimer\":true}\"");
             }
 
             packet.WriteVInt(0);
