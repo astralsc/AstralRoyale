@@ -9,6 +9,7 @@
 
 #### SERVER DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Server
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
+#### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
 ## Features
 ```
@@ -44,12 +45,29 @@ If you're on Linux run the commands below.
 cd /where/your/directory/you/put/ClashRoyale
 dotnet publish "ClashRoyale.csproj" -c Release -o app
 ```
-To configurate your server, such as the database you have to edit the ```config.json``` file.
 
 #### Run the server:
 
+```
+Run the port forward app and then set both local and external port to 9339.
+Run UwAmp and start the server, open https://localhost/mysql then enter username and password as "root".
+Make a new Database named "ardb" and create it then after click "ardb" and go to ClashRoyale folder then open GameAssets then drag "database.sql" into the Database page and it should import the sql file.
+```
+
 ###### Main Server:
 ```dotnet app/ClashRoyale.dll```
+
+```
+When your server says that the configuration file has been added.
+Find the config.json file (located in ClashRoyale folder) and open it.
+Change the password to "root".
+Change MinTrophies to 15 and change MaxTrophies to 50. You can change it to whatever you want.
+Change DefaultGold, DefaultGems to any value but I recommend setting it to "100000000" if you want to progress faster.
+Change DefaultLevel, PLEASE CHANGE THIS VALUE TO 1 - 13. DO NOT HAVE "DefaultLevel" SET TO 0 OR ELSE IT CRASHES THE CR APP.
+Optional Step: You can change update_url to the download page of your website.
+
+BTW, IPA & APK STEPS R IN THE WIKI PAGE!!!
+```
 
 ## Need help?
 Contact me on Discord (fusiondevz) or open an issue.
