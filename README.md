@@ -7,6 +7,18 @@
 #### A .NET Core 2017 Clash Royale Server (v1.9.0 & v1.9.2)
 ##### Need help? Join our [Discord](https://discord.gg/mUredE6CTU)
 
+## Features
+```
+1. More commands.
+2. Searchable clans.
+3. Maintenance system. (only enabled/disabled with the built in clan commands or the config.json file)
+4. Clan Commands (including non admin/admin commands + added /admin & /ban command)
+5. Update check if you're version is incorrect.
+6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
+7. Username, clan name/description/chat filtering system. (currently, the username only gets filtered when you change your existing username)
+8. I forgot the other features.
+```
+
 ## Battles
 The server supports battles, for those a patched client is neccessary.
 
