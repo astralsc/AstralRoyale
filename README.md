@@ -18,12 +18,15 @@ The server supports battles, for those a patched client is neccessary.
   - [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
   - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
-for Ubuntu use these commands to set it up:
+```
+I'm too lazy to upload all files here, so they are bundled in a .zip file that you'll need to extract to use this server.
+If you're on Windows, the ClashRoyale folder has bat files to run the server.
+If you're on Linux run the commands below.
+```
 
 ###### Main Server:
 ```
-I'm too lazy to upload all files here, so they are bundled in a .zip file that you'll need to extract to use this server.
-
+cd /where/your/directory/you/put/ClashRoyale
 dotnet publish "ClashRoyale.csproj" -c Release -o app
 ```
 To configurate your server, such as the database you have to edit the ```config.json``` file.
