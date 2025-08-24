@@ -7,6 +7,8 @@
 #### A .NET Core 2017 Clash Royale Server (v1.9.0 & v1.9.2)
 ##### Need help? Join our [Discord](https://discord.gg/mUredE6CTU)
 
+#### SERVER DOWNLOAD: 
+
 ## Features
 ```
 1. More commands.
