@@ -35,7 +35,6 @@ The server supports battles, for those a patched client is neccessary.
   - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
 ```
-I'm too lazy to upload all files here, so they are bundled in a .zip file that you'll need to extract to use this server.
 If you're on Windows, the ClashRoyale folder has bat files to run the server.
 If you're on Linux run the commands below.
 ```
