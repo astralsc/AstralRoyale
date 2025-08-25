@@ -28,7 +28,6 @@
 1. Classic Challenge & Grand Challenge
 2. Reporting Users
 3. Buying cards with gems
-4. Fix the problem where Royale Arena (Arena 7) up to Hog Mountain (Arena 10) would use the wrong arena.
 ```
 
 ## Battles
@@ -39,7 +38,7 @@ The server supports battles, for those a patched client is neccessary.
 ## How to start
 
 #### Requirements:
-  - [.NET SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+  - [.NET SDK 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
   - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
 ```
