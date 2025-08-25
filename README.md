@@ -23,6 +23,14 @@
 8. I forgot the other features.
 ```
 
+## Incomplete Features
+```
+1. Classic Challenge & Grand Challenge
+2. Reporting Users
+3. Buying cards with gems
+4. Fix the problem where Royale Arena (Arena 7) up to Hog Mountain (Arena 10) would use the wrong arena.
+```
+
 ## Battles
 The server supports battles, for those a patched client is neccessary.
 
