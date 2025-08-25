@@ -39,7 +39,7 @@ The server supports battles, for those a patched client is neccessary.
 ## How to start
 
 #### Requirements:
-  - [.NET Core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+  - [.NET Core SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
   - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
 ```
