@@ -6,6 +6,7 @@
 
 #### A .NET Core 2017 Clash Royale Server (v1.9.0 - v1.9.2)
 ##### Need help? Join our [Discord](https://discord.gg/mUredE6CTU)
+#### Want to help us? Fork this project and you could try add stuff!
 
 #### SERVER DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Server
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
