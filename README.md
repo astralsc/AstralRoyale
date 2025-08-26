@@ -20,7 +20,16 @@
 5. Update check if the app's version is incorrect.
 6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
 7. Username, clan name/description/chat filtering system. (currently, the username only gets filtered when you change your existing username)
-8. I forgot the other features.
+8. Battle System
+9. Friendly Battle
+10. Shop
+11. Upgrading
+```
+
+## Partial Features
+```
+1. Sending Clan Mail
+2. Achievements
 ```
 
 ## Incomplete Features
