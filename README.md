@@ -38,6 +38,7 @@
 1. Classic Challenge & Grand Challenge
 2. Reporting Users
 3. Buying cards with gems
+4. Battle Logs
 ```
 
 ## Battles
