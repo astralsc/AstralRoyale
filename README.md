@@ -88,7 +88,7 @@ Change DefaultGold, DefaultGems to any value but I recommend setting it to "1000
 Change DefaultLevel, PLEASE CHANGE THIS VALUE TO 1 - 13. DO NOT HAVE "DefaultLevel" SET TO 0 OR ELSE IT CRASHES THE CR APP.
 Optional Step: You can change update_url to the download page of your website.
 
-BTW, IPA & APK STEPS R IN THE WIKI PAGE!!!
+NOTE: THE APK & IPA STEPS ARE IN THE WIKI PAGE!
 ```
 
 ## Need help?
