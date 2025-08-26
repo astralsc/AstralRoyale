@@ -12,6 +12,11 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
+## Update Logs (8/26/2025 - 7:28 PM):
+```
+1. Fixed the battle system where players at Arena 7 - 11 would play in the wrong arena.
+```
+
 ## Features
 ```
 1. More commands.
