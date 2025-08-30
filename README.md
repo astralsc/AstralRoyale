@@ -12,9 +12,9 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
-## Update Logs (8/26/2025 - 7:28 PM):
+## Update Logs (8/30/2025 - 7:28 PM):
 ```
-1. Fixed the battle system where players at Arena 7 - 11 would play in the wrong arena.
+1. Updated the .NET 3.1 to .NET 8.0.
 ```
 
 ## Features
@@ -30,6 +30,7 @@
 9. Friendly Battle
 10. Shop
 11. Upgrading
+12. Arena map fixes.
 ```
 
 ## Partial Features
@@ -54,7 +55,7 @@ The server supports battles, for those a patched client is neccessary.
 ## How to start
 
 #### Requirements:
-  - [.NET SDK 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
+  - [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
   - [UwAmp (includes phpMyAdmin & MySQL)](https://www.uwamp.com/en/?page=download)
 
 ```
