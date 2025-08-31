@@ -25,7 +25,7 @@
 4. Clan Commands (including non admin/admin commands + added /admin & /ban command)
 5. Update check if the app's version is incorrect.
 6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
-7. Username, clan name/description/chat filtering system. (currently, the username only gets filtered when you change your existing username)
+7. Username, clan name/description/chat filtering system.
 8. Battle System
 9. Friendly Battle
 10. Shop
