@@ -37,7 +37,6 @@
 ```
 1. Sending Clan Mail
 2. Achievements
-3. Leaderboards
 ```
 
 ## Incomplete Features
