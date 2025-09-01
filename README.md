@@ -12,9 +12,9 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
-## Update Logs (8/30/2025 - 10:23 PM):
+## Update Logs (9/1/2025 - 8:44 PM):
 ```
-1. Updated the .NET 3.1 to .NET 8.0.
+1. Final fix to the profile arena.
 ```
 
 ## Features
