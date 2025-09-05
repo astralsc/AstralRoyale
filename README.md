@@ -12,9 +12,10 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
-## Update Logs (9/1/2025 - 8:44 PM):
+## Update Logs (9/5/2025 - 8:19 PM):
 ```
 1. Final fix to the profile arena.
+2. Implemented a feature where if you have an outdated server version then you will be warned about having an outdated server which allows you to update it.
 ```
 
 ## Features
