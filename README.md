@@ -17,7 +17,7 @@
 1. Final fix to the profile arena.
 2. Implemented a feature where if you have an outdated server version then you will be warned about having an outdated server which allows you to update it.
 3. Fixed some bugs.
-4. Invite Friends, Cancel Tournament Matchmake, Claim Achievements (not completed). 
+4. Invite Friends, Cancel Tournament Matchmake, Claim Achievements structure systems (not completed). 
 ```
 
 ## Features
