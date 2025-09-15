@@ -12,13 +12,7 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
-## Update Logs (9/5/2025 - 8:19 PM):
-```
-1. Final fix to the profile arena.
-2. Implemented a feature where if you have an outdated server version then you will be warned about having an outdated server which allows you to update it.
-3. Fixed some bugs.
-4. Invite Friends, Cancel Tournament Matchmake, Claim Achievements structure systems (not completed). 
-```
+## [Changelogs (click to view)](https://raw.githubusercontent.com/astralsc/AstralRoyale/refs/heads/master/project_update_reason_check)
 
 ## Features
 ```
