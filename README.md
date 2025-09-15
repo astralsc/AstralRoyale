@@ -16,32 +16,33 @@
 
 ## Features
 ```
-1. More commands.
-2. Searchable clans.
+1. More commands
+2. Searchable clans
 3. Maintenance system. (only enabled/disabled with the built in clan commands or the config.json file)
 4. Clan Commands (including non admin/admin commands + added /admin & /ban command)
-5. Update check if the app's version is incorrect.
+5. Update check if the app's version is incorrect
 6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
-7. Username, clan name/description/chat filtering system.
+7. Username, clan name/description/chat filtering system
 8. Battle System
 9. Friendly Battle
 10. Shop
 11. Upgrading
-12. Arena map fixes.
+12. Arena map fixes
+13. DDOS Protection
 ```
 
 ## Partial Features
 ```
 1. Sending Clan Mail
 2. Achievements
+3. Classic Challenge & Grand Challenge
 ```
 
 ## Incomplete Features
 ```
-1. Classic Challenge & Grand Challenge
-2. Reporting Users
-3. Buying cards with gems
-4. Battle Logs
+1. Reporting Users
+2. Buying cards from the shop with gems
+3. Battle Logs
 ```
 
 ## Battles
