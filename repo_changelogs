@@ -1,8 +1,8 @@
-v1.9.2-2 (Current):
+v1.9.2-2 (9/15/2025) - Latest:
 1. Hopefully added a DDOS protection.
 2. Updated the new update check system to have a reason.
 ------------------------------
-1.9.2-1  (9/5/2025 - 8:19 PM):
+1.9.2-1  (9/5/2025):
 1. Final fix to the profile arena.
 2. Implemented a feature where if you have an outdated server version then you will be warned about having an outdated server which allows you to update it.
 3. Fixed some bugs.
