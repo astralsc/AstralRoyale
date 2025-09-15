@@ -28,7 +28,6 @@
 10. Shop
 11. Upgrading
 12. Arena map fixes
-13. DDOS Protection
 ```
 
 ## Partial Features
