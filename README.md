@@ -1,5 +1,5 @@
 # <p align="center">AstralRoyale</p>
-# <p align="center">Clash Royale server for 1.9.0 - 1.9.2</p>
+# <p align="center">Clash Royale server for 1.9.0 - 1.9.2 (DO NOT MAKE PROFIT OFF THIS)</p>
 [![clash royale](https://img.shields.io/badge/Clash%20Royale-1.9.2-brightred.svg?style=flat")](https://clash-royale.en.uptodown.com/android/download/1632865)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Build Status](https://action-badges.now.sh/retroroyale/ClashRoyale)
