@@ -12,7 +12,7 @@
 #### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
 #### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
 
-## [Changelogs (click to view)](https://raw.githubusercontent.com/astralsc/AstralRoyale/refs/heads/master/project_update_reason_check)
+## [Changelogs (click to view)](https://raw.githubusercontent.com/astralsc/AstralRoyale/refs/heads/master/repo_changelogs)
 
 ## Features
 ```
