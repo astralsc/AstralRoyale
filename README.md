@@ -28,13 +28,15 @@
 10. Shop
 11. Upgrading
 12. Arena map fixes
+13. Tournaments (the whole logic is complete but it is very unstable.)
+14. Gem Packs (complete but all of them only give 1000 gems for now.)
+15. 2v2 round results working
 ```
 
 ## Partial Features
 ```
 1. Sending Clan Mail
 2. Achievements
-3. Classic Challenge & Grand Challenge
 ```
 
 ## Incomplete Features
