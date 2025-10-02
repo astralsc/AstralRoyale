@@ -87,6 +87,7 @@ Change MinTrophies to 15 and change MaxTrophies to 50. You can change it to what
 Change DefaultGold, DefaultGems to any value but I recommend setting it to "100000000" if you want to progress faster.
 Change DefaultLevel, PLEASE CHANGE THIS VALUE TO 1 - 13. DO NOT HAVE "DefaultLevel" SET TO 0 OR ELSE IT CRASHES THE CR APP.
 Optional Step: You can change update_url to the download page of your website.
+Important Note: If the default values randomly reset, you should edit the Default values in ClashRoyale\Core\Configuration.cs and set those values to what you want and run publish.bat to publish all changes.
 
 NOTE: THE APK & IPA STEPS ARE IN THE WIKI PAGE!
 ```
