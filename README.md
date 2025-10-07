@@ -37,6 +37,9 @@
 ```
 1. Sending Clan Mail
 2. Achievements
+3. Battle End Results
+4. Chest Slots
+5. Donations
 ```
 
 ## Incomplete Features
