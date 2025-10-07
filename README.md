@@ -35,11 +35,7 @@
 
 ## Partial Features
 ```
-1. Sending Clan Mail
 2. Achievements
-3. Battle End Results
-4. Chest Slots
-5. Donations
 ```
 
 ## Incomplete Features
@@ -47,6 +43,10 @@
 1. Reporting Users
 2. Buying cards from the shop with gems
 3. Battle Logs
+4. Battle End Results
+5. Chest Slots
+6. Donations
+7. Sending Clan Mail
 ```
 
 ## Battles
