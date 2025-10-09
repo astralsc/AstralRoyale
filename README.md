@@ -69,6 +69,7 @@ If you're on Linux run the commands below.
 ```
 cd /where/your/directory/you/put/ClashRoyale
 dotnet publish "ClashRoyale.csproj" -c Release -o app
+cp filter.json app/
 ```
 
 #### Run the server:
