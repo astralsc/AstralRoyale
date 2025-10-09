@@ -28,14 +28,15 @@
 10. Shop
 11. Upgrading
 12. Arena map fixes
-13. Tournaments (the whole logic is complete but it is very unstable.)
-14. Gem Packs (complete but all of them only give 1000 gems for now.)
-15. 2v2 round results working
+13. Gem Packs (complete but all of them only give 1000 gems for now.)
+14. 2v2 round results working
+15. Donations (donations send but you can't donate to the donation requester.)
+16. Sending Clan Mail
 ```
 
 ## Partial Features
 ```
-2. Achievements
+1. Achievements
 ```
 
 ## Incomplete Features
@@ -45,8 +46,6 @@
 3. Battle Logs
 4. Battle End Results
 5. Chest Slots
-6. Donations
-7. Sending Clan Mail
 ```
 
 ## Battles
