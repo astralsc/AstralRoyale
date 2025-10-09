@@ -96,4 +96,4 @@ NOTE: THE APK & IPA STEPS ARE IN THE WIKI PAGE!
 ```
 
 ## Need help?
-Contact me on Discord (fusiondevz) or open an issue.
+Ask for help in my [Discord server](https://discord.gg/mUredE6CTU) or open an issue.
