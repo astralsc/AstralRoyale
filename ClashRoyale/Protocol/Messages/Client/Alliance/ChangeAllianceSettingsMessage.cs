@@ -1,0 +1,124 @@
+﻿using System;
+using System.IO;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using ClashRoyale.Logic;
+using ClashRoyale.Utilities.Netty;
+using DotNetty.Buffers;
+
+namespace ClashRoyale.Protocol.Messages.Client.Alliance
+{
+    public class ChangeAllianceSettingsMessage : PiranhaMessage
+    {
+        public ChangeAllianceSettingsMessage(Device device, IByteBuffer buffer) : base(device, buffer)
+        {
+            Id = 14306;
+        }
+
+        public string Description { get; set; }
+        public int Badge { get; set; }
+        public int Type { get; set; }
+        public int RequiredScore { get; set; }
+        public int Region { get; set; }
+
+        private static readonly string[] bannedWords;
+
+        static ChangeAllianceSettingsMessage()
+        {
+            try
+            {
+                string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                string filterPath = Path.Combine(currentDirectory, "filter.json");
+
+                if (File.Exists(filterPath))
+                {
+                    bannedWords = File.ReadAllLines(filterPath);
+                }
+                else
+                {
+                    bannedWords = Array.Empty<string>();
+                }
+            }
+            catch
+            {
+                bannedWords = Array.Empty<string>();
+            }
+        }
+
+        // Filter
+        private string FilterMessage(string message)
+        {
+            if (string.IsNullOrEmpty(message))
+                return message;
+
+            foreach (var word in bannedWords)
+            {
+                var replacement = new string('*', word.Length);
+                message = Regex.Replace(
+                    message,
+                    Regex.Escape(word),
+                    replacement,
+                    RegexOptions.IgnoreCase
+                );
+            }
+            return message;
+        }
+
+        public override void Decode()
+        {
+            Description = Reader.ReadScString();
+            Reader.ReadVInt();
+            Badge = Reader.ReadVInt();
+            Type = Reader.ReadVInt();
+            RequiredScore = Reader.ReadVInt();
+            Reader.ReadVInt();
+            Region = Reader.ReadVInt();
+        }
+
+        public override async void Process()
+        {
+            var home = Device.Player.Home;
+            var alliance = await Resources.Alliances.GetAllianceAsync(home.AllianceInfo.Id);
+            if (alliance == null) return;
+
+            var oldBadge = alliance.Badge;
+
+            alliance.Type = Type;
+            alliance.Badge = Badge;
+            alliance.Region = Region;
+
+            // Filter description
+            alliance.Description = FilterMessage(Description);
+
+            alliance.RequiredScore = RequiredScore;
+
+            alliance.Save();
+
+            if (Badge == oldBadge) return;
+
+            foreach (var member in alliance.Members)
+            {
+                var player = await member.GetPlayerAsync();
+                if (player == null) continue;
+
+                // TODO
+                /*
+                if (member.IsOnline)
+                {
+                    await new AvailableServerCommand(player.Device)
+                    {
+                        Command = new LogicAllianceSettingsChangedCommand(player.Device)
+                        {
+                            AllianceId = alliance.Id,
+                            AllianceBadge = Badge
+                        }
+                    }.SendAsync();
+                }
+                */
+
+                player.Home.AllianceInfo.Badge = Badge;
+                player.Save();
+            }
+        }
+    }
+}
