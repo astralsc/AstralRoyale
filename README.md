@@ -18,7 +18,7 @@
 ```
 1. More commands
 2. Searchable clans
-3. Maintenance system. (only enabled/disabled with the built in clan commands or the config.json file)
+3. Maintenance system.
 4. Clan Commands (including non admin/admin commands + added /admin & /ban command)
 5. Update check if the app's version is incorrect
 6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
