@@ -32,6 +32,7 @@
 14. 2v2 round results working
 15. Donations (donations send but you can't donate to the donation requester.)
 16. Sending Clan Mail
+17. Friends system (for now you can't accept the requests from a link will come soon.)
 ```
 
 ## Partial Features
