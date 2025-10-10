@@ -21,18 +21,18 @@
 3. Maintenance system.
 4. Clan Commands (including non admin/admin commands + added /admin & /ban command)
 5. Update check if the app's version is incorrect
-6. Extended the 2v2 button timestamp to 2038, I did this so you can see the 2v2 button)
+6. Extended the 2v2 button timestamp to 2038 (I did this so you can see the 2v2 button)
 7. Username, clan name/description/chat filtering system
 8. Battle System
 9. Friendly Battle
 10. Shop
 11. Upgrading
 12. Arena map fixes
-13. Gem Packs (complete but all of them only give 1000 gems for now.)
+13. Gem Packs (complete but all of them only give 1000 gems for now)
 14. 2v2 round results working
-15. Donations (donations send but you can't donate to the donation requester.)
+15. Donations (donations send but you can't donate to the donation requester)
 16. Sending Clan Mail
-17. Friends system (for now you can't accept the requests from a link will come soon.)
+17. Friends system (for now you can't accept the requests from a link will come soon)
 ```
 
 ## Partial Features
