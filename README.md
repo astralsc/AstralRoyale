@@ -8,9 +8,9 @@
 ##### Need help? Join our [Discord](https://discord.gg/mUredE6CTU)
 #### Want to help us? Fork this project and you could try add stuff!
 
-#### SERVER DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Server
-#### CLIENTS DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/Clients
-#### PORT FORWARD APP DOWNLOAD: https://github.com/fdz6/AstralRoyale/releases/tag/PortForward
+#### SERVER DOWNLOAD: https://github.com/Greedycell/AstralRoyale/releases/tag/Server
+#### CLIENTS DOWNLOAD: https://github.com/Greedycell/AstralRoyale/releases/tag/Clients
+#### PORT FORWARD APP DOWNLOAD: https://github.com/Greedycell/AstralRoyale/releases/tag/PortForward
 
 ## [Changelogs (click to view)](https://raw.githubusercontent.com/astralsc/AstralRoyale/refs/heads/master/repo_changelogs)
 
@@ -52,7 +52,7 @@
 ## Battles
 The server supports battles, for those a patched client is neccessary.
 
-[See the wiki for a tutorials](https://github.com/fdz6/AstralRoyale/wiki/)
+[See the wiki for a tutorials](https://github.com/Greedycell/AstralRoyale/wiki/)
 
 ## How to start
 
