@@ -1,6 +1,6 @@
 # <p align="center">AstralRoyale</p>
 # <p align="center">Clash Royale server for 1.9.0 - 1.9.3</p>
-[![clash royale](https://img.shields.io/badge/Clash%20Royale-1.9.3-brightred.svg?style=flat")](https://github.com/fdz6/AstralRoyale/releases/tag/Clients)
+[![clash royale](https://img.shields.io/badge/Clash%20Royale-1.9-brightred.svg?style=flat")](https://github.com/fdz6/AstralRoyale/releases/tag/Clients)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Build Status](https://action-badges.now.sh/retroroyale/ClashRoyale)
 
